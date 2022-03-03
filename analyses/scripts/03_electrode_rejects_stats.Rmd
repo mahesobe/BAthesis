@@ -1,0 +1,40 @@
+```{r}
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+```
+
+# visualize total number of rejections per electrode
+```{r}
+data_per_electr <- read.csv('/home/marie/Documents/uni/8_SS_21/mbensienBA/data/03_statistics/02_electr_rejects_per_channel.csv')
+
+data_per_electr %>% ggplot(mapping=aes(x=electrode, y=count)) +
+  geom_col() +
+  scale_y_continuous(breaks=seq(0,30,by=5)) +
+  coord_flip() +
+  ylab(label='total number of exclusions')
+
+ggsave(filename='01_rejects_total.png', path='/home/marie/Documents/uni/8_SS_21/mbensienBA/data/04_plots/01_rejected_electrodes')
+```
+
+
+# visualize number of rejected electrodes per subject
+```{r}
+data_per_subj <- read.csv('/home/marie/Documents/uni/8_SS_21/mbensienBA/data/03_statistics/03_electr_rejects_per_subj.csv')
+
+data_per_subj <- data_per_subj %>% 
+  mutate(participant=as.factor(participant)) %>%
+  mutate(condition=(ifelse(data_per_subj$condition==1, 'taxi driver', ifelse(data_per_subj$condition==2, 'radio', 'AVAS')))) 
+data_per_subj$condition <- factor(data_per_subj$condition, levels= c('taxi driver', 'radio', 'AVAS'))
+
+data_per_subj %>%
+  ggplot(aes(fill=condition, x=participant, y=count)) + 
+  geom_bar(position='dodge', stat='identity') + 
+  xlab(label='participant Id') +
+  ylab(label='number of rejected electrodes') +
+  scale_y_continuous(breaks=c(1,2,3,4,5,6,7,8,9))
+
+ggsave(filename='02_rejects_participant.png', path='/home/marie/Documents/uni/8_SS_21/mbensienBA/data/04_plots/01_rejected_electrodes')
+
+```
+

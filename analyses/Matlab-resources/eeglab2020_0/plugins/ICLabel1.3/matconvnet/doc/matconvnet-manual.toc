@@ -1,0 +1,100 @@
+\changetocdepth {2}
+\contentsline {chapter}{\chapternumberline {1}Introduction to MatConvNet}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Getting started}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}\textsc {MatConvNet}\xspace at a glance}{4}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Documentation and examples}{5}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Speed}{6}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Acknowledgments}{7}{section.1.5}%
+\contentsline {chapter}{\chapternumberline {2}Neural Network Computations}{9}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Overview}{9}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Network structures}{10}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Sequences}{10}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Directed acyclic graphs}{11}{subsection.2.2.2}%
+\contentsline {section}{\numberline {2.3}Computing derivatives with backpropagation}{12}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Derivatives of tensor functions}{12}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Derivatives of function compositions}{13}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Backpropagation networks}{14}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Backpropagation in DAGs}{15}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}DAG backpropagation networks}{18}{subsection.2.3.5}%
+\contentsline {chapter}{\chapternumberline {3}Wrappers and pre-trained models}{21}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Wrappers}{21}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}SimpleNN}{21}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}DagNN}{21}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Pre-trained models}{22}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Learning models}{23}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Running large scale experiments}{23}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Reading images}{23}{section.3.5}%
+\contentsline {paragraph}{Image cropping and scaling.}{23}{section*.2}%
+\contentsline {paragraph}{Color post-processing.}{24}{section*.3}%
+\contentsline {chapter}{\chapternumberline {4}Computational blocks}{27}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Convolution}{27}{section.4.1}%
+\contentsline {paragraph}{Padding and stride.}{28}{section*.4}%
+\contentsline {paragraph}{Output size.}{28}{section*.5}%
+\contentsline {paragraph}{Receptive field size and geometric transformations.}{28}{section*.6}%
+\contentsline {paragraph}{Fully connected layers.}{28}{section*.7}%
+\contentsline {paragraph}{Filter groups.}{29}{section*.8}%
+\contentsline {paragraph}{Dilation.}{29}{section*.9}%
+\contentsline {section}{\numberline {4.2}Convolution transpose (deconvolution)}{29}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Spatial pooling}{31}{section.4.3}%
+\contentsline {paragraph}{Padding and stride.}{31}{section*.10}%
+\contentsline {section}{\numberline {4.4}Activation functions}{31}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Spatial bilinear resampling}{31}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Region of interest pooling}{32}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Normalization}{33}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}Local response normalization (LRN)}{33}{subsection.4.7.1}%
+\contentsline {subsection}{\numberline {4.7.2}Batch normalization}{33}{subsection.4.7.2}%
+\contentsline {subsection}{\numberline {4.7.3}Spatial normalization}{33}{subsection.4.7.3}%
+\contentsline {subsection}{\numberline {4.7.4}Softmax}{34}{subsection.4.7.4}%
+\contentsline {section}{\numberline {4.8}Categorical losses}{34}{section.4.8}%
+\contentsline {subsection}{\numberline {4.8.1}Classification losses}{34}{subsection.4.8.1}%
+\contentsline {paragraph}{Classification error.}{35}{section*.11}%
+\contentsline {paragraph}{Top-$K$ classification error.}{35}{section*.12}%
+\contentsline {paragraph}{Log loss or negative posterior log-probability.}{35}{section*.13}%
+\contentsline {paragraph}{Softmax log-loss or multinomial logistic loss.}{35}{section*.14}%
+\contentsline {paragraph}{Multi-class hinge loss.}{35}{section*.15}%
+\contentsline {paragraph}{Structured multi-class hinge loss.}{36}{section*.16}%
+\contentsline {subsection}{\numberline {4.8.2}Attribute losses}{36}{subsection.4.8.2}%
+\contentsline {paragraph}{Binary error.}{36}{section*.17}%
+\contentsline {paragraph}{Binary log-loss.}{36}{section*.18}%
+\contentsline {paragraph}{Binary logistic loss.}{36}{section*.19}%
+\contentsline {paragraph}{Binary hinge loss.}{37}{section*.20}%
+\contentsline {section}{\numberline {4.9}Comparisons}{37}{section.4.9}%
+\contentsline {subsection}{\numberline {4.9.1}$p$-distance}{37}{subsection.4.9.1}%
+\contentsline {chapter}{\chapternumberline {5}Geometry}{39}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Preliminaries}{39}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Simple filters}{40}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Pooling in Caffe}{40}{subsection.5.2.1}%
+\contentsline {section}{\numberline {5.3}Convolution transpose}{42}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Transposing receptive fields}{43}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Composing receptive fields}{44}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Overlaying receptive fields}{44}{section.5.6}%
+\contentsline {chapter}{\chapternumberline {6}Implementation details}{45}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Convolution}{45}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Convolution transpose}{46}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Spatial pooling}{47}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Activation functions}{47}{section.6.4}%
+\contentsline {subsection}{\numberline {6.4.1}ReLU}{47}{subsection.6.4.1}%
+\contentsline {subsection}{\numberline {6.4.2}Sigmoid}{48}{subsection.6.4.2}%
+\contentsline {section}{\numberline {6.5}Spatial bilinear resampling}{48}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Normalization}{48}{section.6.6}%
+\contentsline {subsection}{\numberline {6.6.1}Local response normalization (LRN)}{48}{subsection.6.6.1}%
+\contentsline {subsection}{\numberline {6.6.2}Batch normalization}{49}{subsection.6.6.2}%
+\contentsline {subsection}{\numberline {6.6.3}Spatial normalization}{50}{subsection.6.6.3}%
+\contentsline {subsection}{\numberline {6.6.4}Softmax}{50}{subsection.6.6.4}%
+\contentsline {section}{\numberline {6.7}Categorical losses}{51}{section.6.7}%
+\contentsline {subsection}{\numberline {6.7.1}Classification losses}{51}{subsection.6.7.1}%
+\contentsline {paragraph}{Top-$K$ classification error.}{51}{section*.21}%
+\contentsline {paragraph}{Log-loss.}{51}{section*.22}%
+\contentsline {paragraph}{Softmax log-loss.}{51}{section*.23}%
+\contentsline {paragraph}{Multi-class hinge loss.}{51}{section*.24}%
+\contentsline {paragraph}{Structured multi-class hinge loss.}{51}{section*.25}%
+\contentsline {subsection}{\numberline {6.7.2}Attribute losses}{51}{subsection.6.7.2}%
+\contentsline {paragraph}{Binary error.}{51}{section*.26}%
+\contentsline {paragraph}{Binary log-loss.}{52}{section*.27}%
+\contentsline {paragraph}{Binary logistic loss.}{52}{section*.28}%
+\contentsline {paragraph}{Binary hinge loss.}{52}{section*.29}%
+\contentsline {section}{\numberline {6.8}Comparisons}{52}{section.6.8}%
+\contentsline {subsection}{\numberline {6.8.1}$p$-distance}{52}{subsection.6.8.1}%
+\contentsline {section}{\numberline {6.9}Other implementation details}{52}{section.6.9}%
+\contentsline {subsection}{\numberline {6.9.1}Normal sampler}{52}{subsection.6.9.1}%
+\contentsline {subsection}{\numberline {6.9.2}Euclid's algorithm}{54}{subsection.6.9.2}%
